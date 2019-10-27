@@ -4,8 +4,8 @@ Publishing this hack in case it helps someone else. However, this is _ugly_, _wo
 refactored into a PFSense package at some point, so that it might survive software updates etc. **You have been warned.**
 
 When your PFSense's own default gateway is configured to be on an OpenVPN interface which will not immediately come up following a reboot,
-some services within PFSense not to function until you go to `system_gateways.php` (**System** > **Routing** 
-> **Gateways** within the UI) and press **Save**, followed by **Apply Changes** to reset that OpenVPN route as the default route everywhere.
+some services within PFSense not to function until you go to `system_gateways.php` (**System** > **Routing** > **Gateways** within the UI)
+and press **Save**, followed by **Apply Changes** to reset that OpenVPN route as the default route everywhere.
 
 (This was particularly noticed when daily updates to the PFBlockerNG DNS block lists were not happening automatically.)
 
