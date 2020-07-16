@@ -1,4 +1,9 @@
 #!/bin/sh
 
+logger $0 $1
 
-/root/system_routing_configure_after_vpn.php
+if [ $1 -eq "start" ]; then
+	/root/system_routing_configure_after_vpn.php
+fi
+
+
