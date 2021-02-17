@@ -12,6 +12,11 @@ and press **Save**, followed by **Apply Changes** to reset that OpenVPN route as
 Instead of having to perform the aforementioned process in the UI, the shell script can be added into **/usr/local/etc/rc.d**. It calls the PHP file
 which waits 3 minutes for the OpenVPN link to be up, then performs the same process as clicking **Apply Changes** within the GUI.
 
+## PFSense 2.5.0 
+
+Maybe also need to
+    route add vpn-ip/32 wan-dg
+
 ## Licence
 
 Licensed under the Apache License version 2.0. See the `LICENSE` file.
