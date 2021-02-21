@@ -14,8 +14,10 @@ which waits 3 minutes for the OpenVPN link to be up, then performs the same proc
 
 ## PFSense 2.5.0 
 
-Maybe also need to
-    route add vpn-ip/32 wan-dg
+Maybe also need to add static route to allow access to the VPN gateway at all in UI -- `/system_routes.php`
+
+Also after a reboot of the static gateway, the VPN client has to be started again (via cron??) -- /etc/rc.openvpn
+
 
 ## Licence
 
