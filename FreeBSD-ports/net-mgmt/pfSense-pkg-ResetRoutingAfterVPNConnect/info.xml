@@ -1,0 +1,8 @@
+<pfsensepkgs>
+    <package>
+        <name>Reset Routing after VPN Connected Hack</name>
+        <descr><![CDATA[Automatically reconfigure routing for a default gateway that is only accessible after an OpenVPN interface comes up.]]></descr>
+        <version>%%PKGVERSION%%</version>
+        <configurationfile>someprogram.xml</configurationfile>
+    </package>
+</pfsensepkgs>

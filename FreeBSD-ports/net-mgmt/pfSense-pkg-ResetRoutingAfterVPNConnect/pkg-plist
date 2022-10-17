@@ -1,0 +1,4 @@
+pkg/some-local-item-here
+/etc/something??
+%%DATADIR%%/info.xml
+@dir /etc/somedir??
